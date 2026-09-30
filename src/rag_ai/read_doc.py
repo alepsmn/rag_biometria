@@ -5,9 +5,14 @@ from llama_index.core.node_parser import SentenceSplitter
 from llama_index.embeddings.openai import OpenAIEmbedding
 from llama_index.vector_stores.chroma import ChromaVectorStore
 
+from pathlib import Path
+
 import chromadb
 
-reader = SimpleDirectoryReader(input_dir="/home/alex/rag_ai/data")
+BASE_DIR = Path(__file__).resolve().parent
+data_dir = BASE_DIR / "data"
+
+reader = SimpleDirectoryReader(input_dir=data_dir)
 documents = reader.load_data() # len = 23 (23 pags)
 
 splitter = SentenceSplitter( # respecta hasta el final de la frase para cortar
