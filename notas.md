@@ -1,1 +1,0 @@
-manifiesto 12-factor app: "store config in the environment" (config en el entorno, no en el código - separación configuración-código) y uso ajeno de keys.
