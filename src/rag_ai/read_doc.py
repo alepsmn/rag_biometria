@@ -31,7 +31,7 @@ embed_model = OpenAIEmbedding(model="text-embedding-3-small")
 
 client = chromadb.PersistentClient(path="./chroma_db")
 
-collection = client.get_or_create_collection(name="guia_biometrica") # coleccion (bd vectorial) ~ tabla (sql)
+collection = client.get_or_create_collection(name="guia_biometria") # coleccion (bd vectorial) ~ tabla (sql)
 # client.delete_collection(name="guia_biometrica") -> vacia sin borrar bd
 vector_store = ChromaVectorStore(collection)
 storage_context = StorageContext.from_defaults(vector_store=vector_store)
