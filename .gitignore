@@ -13,3 +13,4 @@ data/
 .env
 chroma_db/
 antiguos/
+eval/
