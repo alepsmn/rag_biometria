@@ -1,0 +1,971 @@
+[
+    {
+        "question_id": "GS01",
+        "category": "factual",
+        "question": "¿Qué definición se da para datos biométricos?",
+        "answerable": true,
+        "evidence_pages": [
+            "4"
+        ],
+        "retrieved_contexts": [
+            {
+                "node_id": "e7a3db57-cb38-4d93-929b-ad432effa40a",
+                "text": "2. DEFINICIONES  \n2.1. DATOS, CARACTERÍSTICAS Y SISTEMAS BIOMÉTRICOS \nEl artículo 4.14) del RGPD define “datos biométricos” como “datos personales obtenidos \na partir de un tratamiento técnico específico, relativos a las características físicas, fisiológicas \no conductuales de una persona física que",
+                "score": 0.5888826599317366,
+                "metadata": "4"
+            },
+            {
+                "node_id": "5fd57b34-7f3d-41d2-b163-4bb2e13cbd40",
+                "text": "Pueden \nser una “muestra biométrica”2 (como una huella dactilar o una fotografía, por ejemplo), o bien \nun “rasgo biométrico”2 (como una representación vectorial del rostro , por ejemplo) , o bien \nuna “plantilla biométrica”2 (conjunto de rasgos biométricos), o bien un “modelo biométrico”2 \n(función",
+                "score": 0.5544898229803132,
+                "metadata": "5"
+            },
+            {
+                "node_id": "d6d1e289-c8f7-4e64-b5fc-ed4a4058f52f",
+                "text": "Página: 4 de 23 \n \n \nConfidencial \npor ejemplo) o conductuales (forma de hablar, de escribir o de caminar, por ejemplo) de una \npersona física . En el ámbito del control de acceso  mediante datos biométricos , las \ncaracterísticas físicas suelen ser las más tratadas habitualmente. \nLos sistemas de p",
+                "score": 0.5422056527135749,
+                "metadata": "5"
+            },
+            {
+                "node_id": "51364543-25f0-4a0c-ac7c-aa06fdcb460d",
+                "text": "Por ello y como se abordará más adelante en materia de riesgos (véase \nsección 3.3), es recomendable que las referencias biométricas  se generen con  ciertas \ncaracterísticas de diseño, como las de ser ‘irreversibles’, ‘no vinculables’ y ‘revocables’. \nUna referencia biométrica es ‘irreversible’ si ",
+                "score": 0.5338869729786373,
+                "metadata": "5"
+            },
+            {
+                "node_id": "87746f8e-ceaa-4f32-86c7-a0911e533b27",
+                "text": "Los datos biométricos se consideran una categoría especial de datos cuando son tratados \ncon la finalidad de identificar de manera única a una persona física. Éste es el caso de los \ntratamientos en el  registro y control de acceso  biométricos. Lo anterior aplica con \nindependencia de que la operac",
+                "score": 0.5273783119870055,
+                "metadata": "10"
+            },
+            {
+                "node_id": "81bdf5db-8967-44c2-a33e-ad97a84fdbad",
+                "text": "o \ndenegación de acceso a servicios por errores en la captación del dato. \nPor otra parte, dada una finalidad de control de acceso , un tratamiento basado en datos \npersonales no biométricos (es decir, que no trate características del propio individuo) podría \nser inadecuado (no idóneo), en función ",
+                "score": 0.515579947877733,
+                "metadata": "8"
+            }
+        ]
+    },
+    {
+        "question_id": "GS02",
+        "category": "factual",
+        "question": "Para que una muestra biométrica sea eficaz, ¿qué debe cumplir?",
+        "answerable": true,
+        "evidence_pages": [
+            "5"
+        ],
+        "retrieved_contexts": [
+            {
+                "node_id": "5fd57b34-7f3d-41d2-b163-4bb2e13cbd40",
+                "text": "Pueden \nser una “muestra biométrica”2 (como una huella dactilar o una fotografía, por ejemplo), o bien \nun “rasgo biométrico”2 (como una representación vectorial del rostro , por ejemplo) , o bien \nuna “plantilla biométrica”2 (conjunto de rasgos biométricos), o bien un “modelo biométrico”2 \n(función",
+                "score": 0.5051293155349117,
+                "metadata": "5"
+            },
+            {
+                "node_id": "1e7e327a-786e-4526-99df-28bee6a3f7f5",
+                "text": "Los requisitos para superar este análisis son los ya expuestos anteriormente en la Sección \n3.1. \n \n \n4.4. IMPLEMENTACIÓN Y CONTEXTO DEL TRATAMIENTO  \n \n8 (véase 2.3) Una referencia biométrica es reversible si a partir de ella se puede reconstruir la muestra biométrica original, como la \ncaptura del",
+                "score": 0.5011916614216991,
+                "metadata": "15"
+            },
+            {
+                "node_id": "cbf94911-b878-4173-ad60-2db178ddd04f",
+                "text": "En el caso del tratamiento de múltiples características biométricas (multibiometría) como \nel rostro y la palma de la mano conjuntamente, o ambos iris izquierdo y derecho, por ejemplo, \nno sólo debe justificarse la necesidad de recurrir al tratamiento de datos biométricos , sino \ntambién acreditar q",
+                "score": 0.46518395187338146,
+                "metadata": "9"
+            },
+            {
+                "node_id": "67a4950b-35b2-4289-8356-b1e2f0f94832",
+                "text": "Página: 7 de 23 \n \n \nConfidencial \nPara ello, es recomendable que estén definidas métricas4 sobre los objetivos necesarios \nen los tratamientos en el control de acceso. Es preciso realizar un análisis objetivo sobre la \nadecuación de las distintas opciones técnicas, incluida la biométrica, a dichos ",
+                "score": 0.4612512841189273,
+                "metadata": "8"
+            },
+            {
+                "node_id": "51364543-25f0-4a0c-ac7c-aa06fdcb460d",
+                "text": "Por ello y como se abordará más adelante en materia de riesgos (véase \nsección 3.3), es recomendable que las referencias biométricas  se generen con  ciertas \ncaracterísticas de diseño, como las de ser ‘irreversibles’, ‘no vinculables’ y ‘revocables’. \nUna referencia biométrica es ‘irreversible’ si ",
+                "score": 0.45967970852816475,
+                "metadata": "5"
+            },
+            {
+                "node_id": "01145829-fee4-4fac-a599-5df3f8e7d644",
+                "text": "Para establecer la idoneidad del tratamiento biométrico hay que evaluar que exista un \nvínculo lógico y directo entre el tratamiento y el objetivo perseguido, y determinar la eficacia \nreal del tratamiento, es decir, determinar mediante prueba objetiva que éste es capaz de \nalcanzar un nivel mínimo ",
+                "score": 0.4546660119328775,
+                "metadata": "7"
+            }
+        ]
+    },
+    {
+        "question_id": "GS03",
+        "category": "premisa_falsa",
+        "question": "¿Una muestra biométrica eficaz, es incapaz de distinguir individuos, por lo que no es un dato personal?",
+        "answerable": false,
+        "evidence_pages": [],
+        "retrieved_contexts": [
+            {
+                "node_id": "5fd57b34-7f3d-41d2-b163-4bb2e13cbd40",
+                "text": "Pueden \nser una “muestra biométrica”2 (como una huella dactilar o una fotografía, por ejemplo), o bien \nun “rasgo biométrico”2 (como una representación vectorial del rostro , por ejemplo) , o bien \nuna “plantilla biométrica”2 (conjunto de rasgos biométricos), o bien un “modelo biométrico”2 \n(función",
+                "score": 0.5438314427265831,
+                "metadata": "5"
+            },
+            {
+                "node_id": "81bdf5db-8967-44c2-a33e-ad97a84fdbad",
+                "text": "o \ndenegación de acceso a servicios por errores en la captación del dato. \nPor otra parte, dada una finalidad de control de acceso , un tratamiento basado en datos \npersonales no biométricos (es decir, que no trate características del propio individuo) podría \nser inadecuado (no idóneo), en función ",
+                "score": 0.524499592348429,
+                "metadata": "8"
+            },
+            {
+                "node_id": "cc14a237-313e-4828-be46-bf9f226c5575",
+                "text": "Para que sean eficaces, es necesario que las referencias biométricas generadas a partir \nde dos individuos distintos sean claramente distinguibles , es decir, que  actúen como un \nidentificador de la persona y la singularice, permitiendo distinguirla de  todos los demás \nmiembros de un grupo o domin",
+                "score": 0.5180270755609949,
+                "metadata": "5"
+            },
+            {
+                "node_id": "51364543-25f0-4a0c-ac7c-aa06fdcb460d",
+                "text": "Por ello y como se abordará más adelante en materia de riesgos (véase \nsección 3.3), es recomendable que las referencias biométricas  se generen con  ciertas \ncaracterísticas de diseño, como las de ser ‘irreversibles’, ‘no vinculables’ y ‘revocables’. \nUna referencia biométrica es ‘irreversible’ si ",
+                "score": 0.4951998389218153,
+                "metadata": "5"
+            },
+            {
+                "node_id": "1e7e327a-786e-4526-99df-28bee6a3f7f5",
+                "text": "Los requisitos para superar este análisis son los ya expuestos anteriormente en la Sección \n3.1. \n \n \n4.4. IMPLEMENTACIÓN Y CONTEXTO DEL TRATAMIENTO  \n \n8 (véase 2.3) Una referencia biométrica es reversible si a partir de ella se puede reconstruir la muestra biométrica original, como la \ncaptura del",
+                "score": 0.495131217345819,
+                "metadata": "15"
+            },
+            {
+                "node_id": "ca040444-f59f-4111-acd4-ca2194637951",
+                "text": "En los sistemas utilizados para el control de acceso, es también habitual el uso de  otros \nidentificadores no biométricos, denominados “referencias de identidad”2. Son identificadores \nque permanecen inalterables mientras la persona exista dentro del dominio (como un número \nde DNI, código de emple",
+                "score": 0.47351048329113976,
+                "metadata": "5"
+            }
+        ]
+    },
+    {
+        "question_id": "GS04",
+        "category": "factual",
+        "question": "Requisitos exactos para que una medida restrictiva supere el juicio de proporcionalidad.",
+        "answerable": true,
+        "evidence_pages": [
+            "7"
+        ],
+        "retrieved_contexts": [
+            {
+                "node_id": "efcad13a-215c-47b1-a7a8-e36dfb3fec32",
+                "text": "A los efectos \nque aquí importan basta con recordar que, para comprobar si una medida restrictiva \nde un derecho fundamental supera el juicio de proporcionalidad, es necesario \nconstatar si cumple los tres requisitos o condiciones siguientes: si la medida es \nsusceptible de conseguir el objetivo pro",
+                "score": 0.5438232181428639,
+                "metadata": "7"
+            },
+            {
+                "node_id": "c0375e3a-abbd-46af-93f3-49c2d3fe85f9",
+                "text": "Por ejemplo, con la finalidad de identificar a una \npersona, un tratamiento de datos biométricos no se puede considerar limitado a lo necesario \nsi dichos datos biométricos revelan información adicional sobre la persona, como su origen \nracial o étnico, sus emociones, o atributos relacionados con su",
+                "score": 0.40805691947254347,
+                "metadata": "9"
+            },
+            {
+                "node_id": "acffe383-dc6e-4046-bdeb-af4113efdb02",
+                "text": "3.1.2. NECESIDAD \nEl principio de proporcionalidad requiere también que las medidas, además de idóneas (o \nadecuadas) sean necesarias. Esto significa que no deben ser más gravosas que otras \nmedidas, basadas en biometría o no, que también logran la finalidad con igual eficacia.  \nUno de los principi",
+                "score": 0.4018249378357288,
+                "metadata": "8"
+            },
+            {
+                "node_id": "54dcda13-4d35-4966-acb2-fb61c65499ee",
+                "text": "Esto implica \nnecesariamente la existencia de  una base de datos , bajo el control del responsable , que \nalmacena las referencias biométricas de todas las personas registradas en el sistema . Por \ntanto, l a referencia biométrica generada en el proceso de identificación se compara  \n(comparación un",
+                "score": 0.38732536375770515,
+                "metadata": "7"
+            },
+            {
+                "node_id": "807b7361-1b9d-4f29-819a-2b6e39cfaa94",
+                "text": "Esto significa que no deben suponer una carga excesiva sobre los derechos \nafectados con relación al beneficio obtenido al lograr la finalidad.  Se debe establecer si el \ntratamiento de datos biométricos es una medida ponderada o equilibrada, por derivarse de \nella más beneficios o ventajas para el ",
+                "score": 0.3801947458442857,
+                "metadata": "9"
+            },
+            {
+                "node_id": "5369ac75-ba59-458a-93aa-cfb2bdcbc458",
+                "text": "La participación de terceros aumenta significativamente los riesgos  inherentes, entre \notros, el de acceso no autorizado o de brecha de datos. \n4.3. SUPERACIÓN DEL ANÁLISIS DE IDONEIDAD , NECESIDAD Y PROPORCIONALIDAD  \nEl artículo 35.7.b) del RGPD exige que la EIPD incluya una evaluación de la nece",
+                "score": 0.36750972087807,
+                "metadata": "15"
+            }
+        ]
+    },
+    {
+        "question_id": "GS05",
+        "category": "premisa_falsa",
+        "question": "¿Para que un dato pueda ser considerado como biométrico, entre sus características debe estar la de poder distinguir grupos de individuos?",
+        "answerable": false,
+        "evidence_pages": [],
+        "retrieved_contexts": [
+            {
+                "node_id": "cc14a237-313e-4828-be46-bf9f226c5575",
+                "text": "Para que sean eficaces, es necesario que las referencias biométricas generadas a partir \nde dos individuos distintos sean claramente distinguibles , es decir, que  actúen como un \nidentificador de la persona y la singularice, permitiendo distinguirla de  todos los demás \nmiembros de un grupo o domin",
+                "score": 0.5206690967224975,
+                "metadata": "5"
+            },
+            {
+                "node_id": "5fd57b34-7f3d-41d2-b163-4bb2e13cbd40",
+                "text": "Pueden \nser una “muestra biométrica”2 (como una huella dactilar o una fotografía, por ejemplo), o bien \nun “rasgo biométrico”2 (como una representación vectorial del rostro , por ejemplo) , o bien \nuna “plantilla biométrica”2 (conjunto de rasgos biométricos), o bien un “modelo biométrico”2 \n(función",
+                "score": 0.500021224417782,
+                "metadata": "5"
+            },
+            {
+                "node_id": "51364543-25f0-4a0c-ac7c-aa06fdcb460d",
+                "text": "Por ello y como se abordará más adelante en materia de riesgos (véase \nsección 3.3), es recomendable que las referencias biométricas  se generen con  ciertas \ncaracterísticas de diseño, como las de ser ‘irreversibles’, ‘no vinculables’ y ‘revocables’. \nUna referencia biométrica es ‘irreversible’ si ",
+                "score": 0.48810380328477465,
+                "metadata": "5"
+            },
+            {
+                "node_id": "1e7e327a-786e-4526-99df-28bee6a3f7f5",
+                "text": "Los requisitos para superar este análisis son los ya expuestos anteriormente en la Sección \n3.1. \n \n \n4.4. IMPLEMENTACIÓN Y CONTEXTO DEL TRATAMIENTO  \n \n8 (véase 2.3) Una referencia biométrica es reversible si a partir de ella se puede reconstruir la muestra biométrica original, como la \ncaptura del",
+                "score": 0.47922647348960024,
+                "metadata": "15"
+            },
+            {
+                "node_id": "87746f8e-ceaa-4f32-86c7-a0911e533b27",
+                "text": "Los datos biométricos se consideran una categoría especial de datos cuando son tratados \ncon la finalidad de identificar de manera única a una persona física. Éste es el caso de los \ntratamientos en el  registro y control de acceso  biométricos. Lo anterior aplica con \nindependencia de que la operac",
+                "score": 0.4752724843289816,
+                "metadata": "10"
+            },
+            {
+                "node_id": "e7a3db57-cb38-4d93-929b-ad432effa40a",
+                "text": "2. DEFINICIONES  \n2.1. DATOS, CARACTERÍSTICAS Y SISTEMAS BIOMÉTRICOS \nEl artículo 4.14) del RGPD define “datos biométricos” como “datos personales obtenidos \na partir de un tratamiento técnico específico, relativos a las características físicas, fisiológicas \no conductuales de una persona física que",
+                "score": 0.4714579626404111,
+                "metadata": "4"
+            }
+        ]
+    },
+    {
+        "question_id": "GS06",
+        "category": "fuera_de_corpus",
+        "question": "¿Cómo se calcula la indemnización por daños a un trabajador?",
+        "answerable": false,
+        "evidence_pages": [],
+        "retrieved_contexts": [
+            {
+                "node_id": "ecaaa172-d13a-48ea-994b-bb2d0fcde19d",
+                "text": "Página: 19 de 23 \n \n \nConfidencial \nDecreto Legislativo 5/2015, de 30 de octubre.  Sería deseable, por tanto, disponer de un \nmarco normativo que regulara específicamente, y con las garantías adecuadas, el posible \ntratamiento de datos biométricos en el contexto laboral. \nEn el ámbito laboral deberá",
+                "score": 0.2910566178740201,
+                "metadata": "20"
+            },
+            {
+                "node_id": "315de02f-4c80-4852-82b0-5345fb039444",
+                "text": "Página: 18 de 23 \n \n \nConfidencial \nLa empresa conservará los registros a que se refiere este precepto durante cuatro años \ny permanecerán a disposición de las personas trabajadoras, de sus representantes legales \ny de la Inspección de Trabajo y Seguridad Social.» \nComo se especifica en el apartado ",
+                "score": 0.28126061674957964,
+                "metadata": "19"
+            },
+            {
+                "node_id": "e18a6bff-25bd-4587-accb-fa4ad6686b6b",
+                "text": "LICITUD DEL TRATAMIENTO  Y CONSENTIMIENTO LIBRE DE LA PERSONA TRABAJADORA  \nEl registro de jornada es una obligación legal impuesta al empresario (art. 34.9 ET), por \nlo que la base jurídica del tratamiento de registro de jornada se adecua a lo establecido en \nel art. 6.1.c): “el tratamiento es nece",
+                "score": 0.27943119844721137,
+                "metadata": "20"
+            },
+            {
+                "node_id": "254bd116-6635-4be1-a038-6bdb648c65fd",
+                "text": "En relación con el control de acceso con fines laborales, éste se suele fundamentar en la \nprevisión contenida en el art. 20.3 del Real Decreto Legislativo 2/2015, de 23 de octubre, por \nel que se aprueba el texto refundido de la Ley del Estatuto de los Trab ajadores, que \nestablece que: \n“3. El emp",
+                "score": 0.2733375872633772,
+                "metadata": "19"
+            },
+            {
+                "node_id": "243cd0f0-8e59-48e6-a092-f66db4ccb605",
+                "text": "La autorización suficientemente específica no se encuentra para el \npersonal laboral, puesto que los artículos 20.3 y 34.9 del Real Decreto Legislativo 2/2015,  \nde 23 de octubre, por  el que se aprueba el texto refundido de la Ley del Estatuto de los \nTrabajadores, no contienen tal autorización. Ta",
+                "score": 0.2710486273412699,
+                "metadata": "19"
+            },
+            {
+                "node_id": "3ab54d61-5400-414a-8713-7eaa99619c25",
+                "text": "Garantías y medidas ................................................................................................. 15 \n4.5.1. Organizativas ................................................................................................................. 15 \n4.5.2. Técnicas .......................",
+                "score": 0.2670768945886133,
+                "metadata": "3"
+            }
+        ]
+    },
+    {
+        "question_id": "GS07",
+        "category": "factual",
+        "question": "¿Existen restricciones en procesos automatizados para el control de acceso a lugares de trabajo?",
+        "answerable": true,
+        "evidence_pages": [
+            "12"
+        ],
+        "retrieved_contexts": [
+            {
+                "node_id": "7a5566e2-ebce-4d95-b28e-0b4fbdd1be47",
+                "text": "3.4. DECISIONES AUTOMATIZADAS  \nEl art. 22 del RGPD establece restricciones y garantías cuando una decisión basada \núnicamente en un tratamiento automatizado , incluida la elaboración de perfiles,  produce \nefectos jurídicos sobre el interesado o le afecte significativamente de modo similar.  \nUn tr",
+                "score": 0.5094606524263237,
+                "metadata": "12"
+            },
+            {
+                "node_id": "254bd116-6635-4be1-a038-6bdb648c65fd",
+                "text": "En relación con el control de acceso con fines laborales, éste se suele fundamentar en la \nprevisión contenida en el art. 20.3 del Real Decreto Legislativo 2/2015, de 23 de octubre, por \nel que se aprueba el texto refundido de la Ley del Estatuto de los Trab ajadores, que \nestablece que: \n“3. El emp",
+                "score": 0.480282450418302,
+                "metadata": "19"
+            },
+            {
+                "node_id": "db93acc7-92e9-43cd-a9b0-0f03a6dfc9ca",
+                "text": "Otro ejemplo \nes que impida a un interesado el acceso a una determinada actividad o servicio previamente \ncontratado o que limite su libertad de movimientos. \nA estos efectos, una intervención humana meramente formal no será suficiente para \nexcluir que la decisión se considere basada únicamente en ",
+                "score": 0.46466262777147654,
+                "metadata": "12"
+            },
+            {
+                "node_id": "9ea4ed7e-5fbe-4e3d-8389-2e8db402532e",
+                "text": "REGISTRO DE JORNADA  \nEn el ámbito laboral, el control de acceso puede limitarse a una finalidad básica en materia \nde seguridad o también servir para la finalidad de registro de jornada. \nEn relación con el registro de jornada, el Real Decreto -Ley 8/2019, de 8 de marzo, de \nmedidas urgentes de pro",
+                "score": 0.4452741819318393,
+                "metadata": "18"
+            },
+            {
+                "node_id": "315de02f-4c80-4852-82b0-5345fb039444",
+                "text": "Página: 18 de 23 \n \n \nConfidencial \nLa empresa conservará los registros a que se refiere este precepto durante cuatro años \ny permanecerán a disposición de las personas trabajadoras, de sus representantes legales \ny de la Inspección de Trabajo y Seguridad Social.» \nComo se especifica en el apartado ",
+                "score": 0.4445576170178577,
+                "metadata": "19"
+            },
+            {
+                "node_id": "443a4484-2ad9-4355-a407-ab236479d616",
+                "text": "Todos los \nescenarios hay que analizarlos para medir el grado de impacto que puede ocasionar en los \nderechos y libertades. \nAsimismo, hay que conocer qué brechas se están produciendo actualmente y que podrían \ndeterminar la falta de adecuación de una técnica biométrica concreta, de la biometría en ",
+                "score": 0.4405086689726623,
+                "metadata": "18"
+            }
+        ]
+    },
+    {
+        "question_id": "GS08",
+        "category": "fuera_de_corpus",
+        "question": "¿Qué sanción económica corresponde a una infracción grave del RGPD?",
+        "answerable": false,
+        "evidence_pages": [],
+        "retrieved_contexts": [
+            {
+                "node_id": "2ccc5bcf-a6bc-4bb9-8c19-63a21701c60c",
+                "text": "9.2 \nRGPD). Asimismo, se requiere el cumplimiento de las condiciones del art. 22 del RGPD . \nAdemás, es necesario establecer desde el diseño medidas técnicas  y organizativas \napropiadas, a fin de garantizar y poder demostrar que el tratamiento es  conforme con el \nRGPD. Estas medidas, teniendo en c",
+                "score": 0.4002535338477729,
+                "metadata": "16"
+            },
+            {
+                "node_id": "06fe7758-342b-4832-9bb3-315584f08b3b",
+                "text": "A su vez, hay que tener en cuenta que una gestión del riesgo para los derechos y \nlibertades no excluye la obligación previa de que exista una circunstancia que permita el \nlevantamiento de la prohibición de tratar categorías especiales, una condición que le gitime \nel tratamiento, cumplir con las c",
+                "score": 0.3858011331410235,
+                "metadata": "13"
+            },
+            {
+                "node_id": "00cc2c72-858d-4cd0-b8c8-41515547d618",
+                "text": "9, apartado 1, del RGPD establece una regla general consistente en prohibir el \ntratamiento de datos personales que revelen lo que denomina “categorías especiales de \ndatos personales”. Esta especial protección deriva del impacto que el tratamiento de estos \ndatos puede tener en los derechos fundame",
+                "score": 0.3815880627880348,
+                "metadata": "10"
+            },
+            {
+                "node_id": "94e76918-8624-4032-b682-b7cc35062f09",
+                "text": "25 RGPD ), técnicas y organizativas \napropiadas a fin de garantizar y poder  demostrar que el tratamiento es conforme con el \nRGPD. En particular, cuando sea probable que un tipo de tratamiento entrañe un alto riesgo, \nse deberá realizar una Evaluación de Impacto para la Protección de Datos (EIPD) a",
+                "score": 0.377839778391639,
+                "metadata": "13"
+            },
+            {
+                "node_id": "abc79dce-c0ea-4e92-92ce-bd74483fcf10",
+                "text": "Entre dichas medidas \ndeberán figurar, como mínimo, en los supuestos previstos en el artículo 22.3 del \nRGPD: \no el derecho a obtener intervención humana por parte del responsable;",
+                "score": 0.3688941195008252,
+                "metadata": "12"
+            },
+            {
+                "node_id": "6906bc0c-4666-4661-9f2e-5bb4a98e6492",
+                "text": "Dicha intervención deberá ser realizada por una persona con autoridad y competencia par a \nvalorar los elementos pertinentes y modificar o dejar sin efecto la decisión. \nCuando el responsable configure un tratamiento en el control de acceso de esta forma, \ndeberá tener en cuenta que, conforme al art",
+                "score": 0.3670535076281986,
+                "metadata": "12"
+            }
+        ]
+    },
+    {
+        "question_id": "GS09",
+        "category": "dato_ausente",
+        "question": "¿Cada cuánto se recomienda que se hagan cambios en procesos de operaciones biométricas?",
+        "answerable": false,
+        "evidence_pages": [],
+        "retrieved_contexts": [
+            {
+                "node_id": "45252acc-cab9-49d6-b550-3a1549409475",
+                "text": "Página: 15 de 23 \n \n \nConfidencial \nHay una gran diferencia entre el concepto de operación biométrica y su implementación. \nLa implementación concreta implica selección de sensores, protocolos de comunicaciones, \nbibliotecas de código, dispositivos en los que se integran (móviles o cajeros automátic",
+                "score": 0.48802659837429496,
+                "metadata": "16"
+            },
+            {
+                "node_id": "4ac00e8c-1ed3-4cad-b3d4-7b6b175cba2f",
+                "text": "Página: 17 de 23 \n \n \nConfidencial \nconfiguración debe estar restringido al personal autorizado responsable de la seguridad y el \nmantenimiento del sistema. \nLas muestras biométricas (como la huella dactilar o una fotografía) sólo deben \nalmacenarse durante el tiempo mínimo estrictamente necesario p",
+                "score": 0.4817255968583246,
+                "metadata": "18"
+            },
+            {
+                "node_id": "33eeda48-1ac4-40ca-b3e0-f5d4fe4759de",
+                "text": "Los sistemas de control de acceso físico no deben recopilar, ni procesar de ninguna otra \nforma, los datos biométricos de las personas que no estén sujetas al proceso de control de \nacceso. Esto se puede garantizar, por ejemplo, utilizando puntos de control biométricos \nespecíficos que estén clarame",
+                "score": 0.4769342991035346,
+                "metadata": "17"
+            },
+            {
+                "node_id": "bc2a0287-66cf-4fc8-a942-05cb4c174233",
+                "text": "Incluso \naunque inicialmente se hubieran  solventado estas situaciones, éstas podrían sobrevenir \ncomo consecuencia de una renovación o actualización de sus componentes una vez que el \nsistema hubiera sido puesto en producción. \nPor tanto, se recomienda que el riesgo de las operaciones  biométricas,",
+                "score": 0.47246477365604045,
+                "metadata": "16"
+            },
+            {
+                "node_id": "7f8cf7fb-5b42-483b-807a-b5c9551df286",
+                "text": "Las referencias biométricas irrevocables 10 aumentan el riesgo inherente en caso de \nbrechas de datos e imposibilitan el establecimiento de períodos de validez o políticas de \ncaducidad. \nEn la práctica, las tecnologías biométricas ofrecen distintos grados de irreversibilidad, no \nvinculación y revo",
+                "score": 0.4722103828471944,
+                "metadata": "15"
+            },
+            {
+                "node_id": "467f4c53-3f3f-4a53-96db-cd6fbb375555",
+                "text": "91 de la \nLOPDGDD. \n• Entre las medidas recomendables para minimizar el riesgo se encuentran: \no La utilización de tecnologías biométricas basa das en utilizar dispositivos bajo \nel control exclusivo de los usuarios y evitar el almacenamiento centralizado de \nlas plantillas biométricas. \no La toma d",
+                "score": 0.4718584267803614,
+                "metadata": "22"
+            }
+        ]
+    },
+    {
+        "question_id": "GS10",
+        "category": "dato_ausente",
+        "question": "¿Qué porcentaje de proporcionalidad para la intensidad de las medidas en operaciones biométricas se recomienda respecto a la sensibilidad de los datos?",
+        "answerable": false,
+        "evidence_pages": [],
+        "retrieved_contexts": [
+            {
+                "node_id": "c0375e3a-abbd-46af-93f3-49c2d3fe85f9",
+                "text": "Por ejemplo, con la finalidad de identificar a una \npersona, un tratamiento de datos biométricos no se puede considerar limitado a lo necesario \nsi dichos datos biométricos revelan información adicional sobre la persona, como su origen \nracial o étnico, sus emociones, o atributos relacionados con su",
+                "score": 0.4375422120875209,
+                "metadata": "9"
+            },
+            {
+                "node_id": "67a4950b-35b2-4289-8356-b1e2f0f94832",
+                "text": "Página: 7 de 23 \n \n \nConfidencial \nPara ello, es recomendable que estén definidas métricas4 sobre los objetivos necesarios \nen los tratamientos en el control de acceso. Es preciso realizar un análisis objetivo sobre la \nadecuación de las distintas opciones técnicas, incluida la biométrica, a dichos ",
+                "score": 0.4121619309844192,
+                "metadata": "8"
+            },
+            {
+                "node_id": "88de149f-b6a0-4205-a466-1ddeee83dae1",
+                "text": "25.2 RGPD). \nLa intensidad de las medidas y garantías deberá ser proporcional a la sensibilidad de los \ndatos tratados y, especialmente, al nivel de riesgo que tenga el tratamiento concreto. \nDada una implementación concreta de un control de acceso con técnicas biométricas, las \nmedidas aquí expuest",
+                "score": 0.4081517714009956,
+                "metadata": "16"
+            },
+            {
+                "node_id": "54dcda13-4d35-4966-acb2-fb61c65499ee",
+                "text": "Esto implica \nnecesariamente la existencia de  una base de datos , bajo el control del responsable , que \nalmacena las referencias biométricas de todas las personas registradas en el sistema . Por \ntanto, l a referencia biométrica generada en el proceso de identificación se compara  \n(comparación un",
+                "score": 0.40307503123855143,
+                "metadata": "7"
+            },
+            {
+                "node_id": "807b7361-1b9d-4f29-819a-2b6e39cfaa94",
+                "text": "Esto significa que no deben suponer una carga excesiva sobre los derechos \nafectados con relación al beneficio obtenido al lograr la finalidad.  Se debe establecer si el \ntratamiento de datos biométricos es una medida ponderada o equilibrada, por derivarse de \nella más beneficios o ventajas para el ",
+                "score": 0.4006290162826843,
+                "metadata": "9"
+            },
+            {
+                "node_id": "45252acc-cab9-49d6-b550-3a1549409475",
+                "text": "Página: 15 de 23 \n \n \nConfidencial \nHay una gran diferencia entre el concepto de operación biométrica y su implementación. \nLa implementación concreta implica selección de sensores, protocolos de comunicaciones, \nbibliotecas de código, dispositivos en los que se integran (móviles o cajeros automátic",
+                "score": 0.3949002276612623,
+                "metadata": "16"
+            }
+        ]
+    },
+    {
+        "question_id": "GS11",
+        "category": "factual",
+        "question": "Los interesados en implantar métodos de control, aun teniendo permiso por las autoridades, ¿deben plantear alternativas para el uso de estos datos biométricos en controles de acceso?",
+        "answerable": true,
+        "evidence_pages": [
+            "16"
+        ],
+        "retrieved_contexts": [
+            {
+                "node_id": "4686fb41-7d63-4d9f-a7ce-894a8b29a66c",
+                "text": "Esto puede traducirse en el establecimiento de un método \nrazonable y alternativo al tratamiento de datos biométricos, que  podrá implicar la \ncoexistencia de dos mecanismos de control de acceso que obviamente no son iguales. No \nobstante, este método alternativo no deberá suponer una carga, penalid",
+                "score": 0.5935433556121215,
+                "metadata": "11"
+            },
+            {
+                "node_id": "3f2ad023-f862-4b9f-83eb-1b32b23d3cf2",
+                "text": "• En la implementación de un tratamiento en el control de acceso hay que cumplir los \nprincipios de minimización y de protección de datos desde el diseño y por defecto, \nutilizando de entre las medidas igualmente eficaces las menos intrusivas y que traten \nlos menos datos adicionales. \n• Es necesari",
+                "score": 0.5900032678749833,
+                "metadata": "21"
+            },
+            {
+                "node_id": "5210aca0-df59-4214-aefd-897e96d53a36",
+                "text": "25.1 del RGPD y \ncon las recomendaciones que establece en la Guía de Privacidad desde el Diseño. \n4.5.1. ORGANIZATIVAS  \nCuando el tratamiento esté autorizado por ley, esta ley podría obligar a los responsables \ndel tratamiento a realizar una EIPD, a consultar a la autoridad de control y obtener su ",
+                "score": 0.5813640563191295,
+                "metadata": "16"
+            },
+            {
+                "node_id": "e6a4ec6a-7871-4d06-a37d-f6cf975eca8d",
+                "text": "Página: 21 de 23 \n \n \nConfidencial \ncolectivo que establezca garantías adecuadas. \no Cualquier utilización de los datos biométricos con finalidades adicionales a la \nde control de acceso deberá tener sus propias circunstancias de levantamiento \nde la prohibición y de condiciones que lo legitimen. \n•",
+                "score": 0.5766745518875918,
+                "metadata": "22"
+            },
+            {
+                "node_id": "4ac00e8c-1ed3-4cad-b3d4-7b6b175cba2f",
+                "text": "Página: 17 de 23 \n \n \nConfidencial \nconfiguración debe estar restringido al personal autorizado responsable de la seguridad y el \nmantenimiento del sistema. \nLas muestras biométricas (como la huella dactilar o una fotografía) sólo deben \nalmacenarse durante el tiempo mínimo estrictamente necesario p",
+                "score": 0.5727147214674755,
+                "metadata": "18"
+            },
+            {
+                "node_id": "6f131728-859c-482f-b8b4-07f0e2e4702f",
+                "text": "Los responsables del tratamiento deben evaluar cuidadosamente los siguientes \nelementos de diseño, entre otros, para determinar si el tratamiento puede suponer un alto \nriesgo inherente para los derechos y libertades de las personas físicas: \n• Datos biométricos bajo el control exclusivo del respons",
+                "score": 0.5700343009771993,
+                "metadata": "14"
+            }
+        ]
+    },
+    {
+        "question_id": "GS12",
+        "category": "factual",
+        "question": "¿De qué deben ser informados aquellas personas que autoricen el uso de sus datos biométricos en procesos de control?",
+        "answerable": true,
+        "evidence_pages": [
+            "17"
+        ],
+        "retrieved_contexts": [
+            {
+                "node_id": "9e2496a7-c05f-40f6-964d-b7415b0aec39",
+                "text": "Página: 16 de 23 \n \n \nConfidencial \nLos interesados deben estar informados sobre el tratamiento. Esto implica, como señala \nel considerando 39 del RGPD que “ Las personas físicas deben tener conocimiento de los \nriesgos” con relación a los tratamientos, en este caso biométrico. Una medida recomendad",
+                "score": 0.6181505482558124,
+                "metadata": "17"
+            },
+            {
+                "node_id": "e6a4ec6a-7871-4d06-a37d-f6cf975eca8d",
+                "text": "Página: 21 de 23 \n \n \nConfidencial \ncolectivo que establezca garantías adecuadas. \no Cualquier utilización de los datos biométricos con finalidades adicionales a la \nde control de acceso deberá tener sus propias circunstancias de levantamiento \nde la prohibición y de condiciones que lo legitimen. \n•",
+                "score": 0.5871804636101824,
+                "metadata": "22"
+            },
+            {
+                "node_id": "5210aca0-df59-4214-aefd-897e96d53a36",
+                "text": "25.1 del RGPD y \ncon las recomendaciones que establece en la Guía de Privacidad desde el Diseño. \n4.5.1. ORGANIZATIVAS  \nCuando el tratamiento esté autorizado por ley, esta ley podría obligar a los responsables \ndel tratamiento a realizar una EIPD, a consultar a la autoridad de control y obtener su ",
+                "score": 0.5725548915340627,
+                "metadata": "16"
+            },
+            {
+                "node_id": "87746f8e-ceaa-4f32-86c7-a0911e533b27",
+                "text": "Los datos biométricos se consideran una categoría especial de datos cuando son tratados \ncon la finalidad de identificar de manera única a una persona física. Éste es el caso de los \ntratamientos en el  registro y control de acceso  biométricos. Lo anterior aplica con \nindependencia de que la operac",
+                "score": 0.5712714751581606,
+                "metadata": "10"
+            },
+            {
+                "node_id": "6f131728-859c-482f-b8b4-07f0e2e4702f",
+                "text": "Los responsables del tratamiento deben evaluar cuidadosamente los siguientes \nelementos de diseño, entre otros, para determinar si el tratamiento puede suponer un alto \nriesgo inherente para los derechos y libertades de las personas físicas: \n• Datos biométricos bajo el control exclusivo del respons",
+                "score": 0.5671893598952249,
+                "metadata": "14"
+            },
+            {
+                "node_id": "5505dd81-74c6-4bb1-8116-0cea96128454",
+                "text": "Página: 10 de 23 \n \n \nConfidencial \nlocalizada y consentida, donde los interesados conserven el control efectivo6 sobre sus datos \nbiométricos (véase sección 4 Gestión del riesgo y 4.5 Garantías y medidas). \n3.2.1. EXCEPCIÓN BASADA EN EL CONSENTIMIENTO  \nEl consentimiento puede levantar la prohibici",
+                "score": 0.5612147046569133,
+                "metadata": "11"
+            }
+        ]
+    },
+    {
+        "question_id": "GS13",
+        "category": "dato_ausente",
+        "question": "Que porcentaje de dispositivos de la organizacion que contengan datos biometricos, deben ser estrictamente protegidos",
+        "answerable": false,
+        "evidence_pages": [],
+        "retrieved_contexts": [
+            {
+                "node_id": "50035ba9-ae95-4f67-ae66-358d926999d3",
+                "text": "Se debe considerar la implementación de medios técnicos para asegurar la imposibilidad \nde utilizar las plantillas para otros propósitos distintos al del tratamiento. \nSe recomienda el cifrado de los datos biométricos tanto en su almacenamiento como en \nsu transmisión, para proteger de esta forma su",
+                "score": 0.5253661038790549,
+                "metadata": "17"
+            },
+            {
+                "node_id": "4ac00e8c-1ed3-4cad-b3d4-7b6b175cba2f",
+                "text": "Página: 17 de 23 \n \n \nConfidencial \nconfiguración debe estar restringido al personal autorizado responsable de la seguridad y el \nmantenimiento del sistema. \nLas muestras biométricas (como la huella dactilar o una fotografía) sólo deben \nalmacenarse durante el tiempo mínimo estrictamente necesario p",
+                "score": 0.5158923108604431,
+                "metadata": "18"
+            },
+            {
+                "node_id": "467f4c53-3f3f-4a53-96db-cd6fbb375555",
+                "text": "91 de la \nLOPDGDD. \n• Entre las medidas recomendables para minimizar el riesgo se encuentran: \no La utilización de tecnologías biométricas basa das en utilizar dispositivos bajo \nel control exclusivo de los usuarios y evitar el almacenamiento centralizado de \nlas plantillas biométricas. \no La toma d",
+                "score": 0.4926202516986663,
+                "metadata": "22"
+            },
+            {
+                "node_id": "db0254ce-18bd-4a3d-8a61-cb9d98a9ac3b",
+                "text": "o Implementar medios técnicos para asegurarse la imposibilidad de utilizar las \nplantillas para cualquier otro propósito. \no Utilizar cifrado para proteger la confidencialidad, disponibilidad e integridad de \nla plantilla biométrica. \no Utilizar formatos de datos o tecnologías específicas que imposi",
+                "score": 0.48733483286534457,
+                "metadata": "22"
+            },
+            {
+                "node_id": "bc3becc0-2de4-477d-969b-18db6253f2d9",
+                "text": "Los dispositivos personales deben almacenar los datos \nbiométricos en un enclave seguro y procesarlos en un entorno de ejecución confiable. \nLas operaciones de la verificación biométrica deben ser realizadas de forma local, por \nejemplo, en el dispositivo personal o junto con un terminal o quiosco b",
+                "score": 0.48355296293443295,
+                "metadata": "17"
+            },
+            {
+                "node_id": "e6a4ec6a-7871-4d06-a37d-f6cf975eca8d",
+                "text": "Página: 21 de 23 \n \n \nConfidencial \ncolectivo que establezca garantías adecuadas. \no Cualquier utilización de los datos biométricos con finalidades adicionales a la \nde control de acceso deberá tener sus propias circunstancias de levantamiento \nde la prohibición y de condiciones que lo legitimen. \n•",
+                "score": 0.4795310780792705,
+                "metadata": "22"
+            }
+        ]
+    },
+    {
+        "question_id": "GS14",
+        "category": "factual",
+        "question": "El máximo tiempo que pueden guardarse los registros diarios de jornadas y quién puede acceder a ellos.",
+        "answerable": true,
+        "evidence_pages": [
+            "19"
+        ],
+        "retrieved_contexts": [
+            {
+                "node_id": "315de02f-4c80-4852-82b0-5345fb039444",
+                "text": "Página: 18 de 23 \n \n \nConfidencial \nLa empresa conservará los registros a que se refiere este precepto durante cuatro años \ny permanecerán a disposición de las personas trabajadoras, de sus representantes legales \ny de la Inspección de Trabajo y Seguridad Social.» \nComo se especifica en el apartado ",
+                "score": 0.4648355815408684,
+                "metadata": "19"
+            },
+            {
+                "node_id": "9ea4ed7e-5fbe-4e3d-8389-2e8db402532e",
+                "text": "REGISTRO DE JORNADA  \nEn el ámbito laboral, el control de acceso puede limitarse a una finalidad básica en materia \nde seguridad o también servir para la finalidad de registro de jornada. \nEn relación con el registro de jornada, el Real Decreto -Ley 8/2019, de 8 de marzo, de \nmedidas urgentes de pro",
+                "score": 0.45410943250447716,
+                "metadata": "18"
+            },
+            {
+                "node_id": "45e9ac56-6b8b-45b9-9810-04b87f6c37ae",
+                "text": "La empresa garantizará el registro diario de jornada, que deberá incluir el horario \nconcreto de inicio y finalización de la jornada de trabajo de cada persona trabajadora, sin \nperjuicio de la flexibilidad horaria que se establece en este artículo. \nMediante negociación colectiva o acuerdo de empre",
+                "score": 0.44707870060930427,
+                "metadata": "18"
+            },
+            {
+                "node_id": "e18a6bff-25bd-4587-accb-fa4ad6686b6b",
+                "text": "LICITUD DEL TRATAMIENTO  Y CONSENTIMIENTO LIBRE DE LA PERSONA TRABAJADORA  \nEl registro de jornada es una obligación legal impuesta al empresario (art. 34.9 ET), por \nlo que la base jurídica del tratamiento de registro de jornada se adecua a lo establecido en \nel art. 6.1.c): “el tratamiento es nece",
+                "score": 0.41158033862671256,
+                "metadata": "20"
+            },
+            {
+                "node_id": "3ab54d61-5400-414a-8713-7eaa99619c25",
+                "text": "Garantías y medidas ................................................................................................. 15 \n4.5.1. Organizativas ................................................................................................................. 15 \n4.5.2. Técnicas .......................",
+                "score": 0.385314006013358,
+                "metadata": "3"
+            },
+            {
+                "node_id": "ecaaa172-d13a-48ea-994b-bb2d0fcde19d",
+                "text": "Página: 19 de 23 \n \n \nConfidencial \nDecreto Legislativo 5/2015, de 30 de octubre.  Sería deseable, por tanto, disponer de un \nmarco normativo que regulara específicamente, y con las garantías adecuadas, el posible \ntratamiento de datos biométricos en el contexto laboral. \nEn el ámbito laboral deberá",
+                "score": 0.3781688796199865,
+                "metadata": "20"
+            }
+        ]
+    },
+    {
+        "question_id": "GS15",
+        "category": "factual",
+        "question": "Aun subcontratando, ¿los sistemas biométricos se rigen por las normas establecidas en esta guia?",
+        "answerable": true,
+        "evidence_pages": [
+            "21"
+        ],
+        "retrieved_contexts": [
+            {
+                "node_id": "4c4d1d7b-4e14-426c-a6fb-bc88ad0f6ebc",
+                "text": "Página: 20 de 23 \n \n \nConfidencial \nEn el caso de subcontratación de trabajadores, si el contratante exige por contrato \nsistemas biométricos para el establecimiento de un posible control de acceso, dicha \nexigencia ha de cumplir con lo establecido en este documento. \nLa entidad contratada, si ademá",
+                "score": 0.5282022514755177,
+                "metadata": "21"
+            },
+            {
+                "node_id": "e8f82ba1-0a8b-46ac-9b16-00ce520a612e",
+                "text": "• En el caso de que el sistema biométrico se implemente con técnicas de inteligencia \nartificial, para poder incluirlos en un tratamiento se deberán tener en cuenta las \nprohibiciones, limitaciones y exigencias establecidas en la normativa de inteligencia \nartificial. \n• Superados todos los requisit",
+                "score": 0.5254783089296821,
+                "metadata": "22"
+            },
+            {
+                "node_id": "bc2a0287-66cf-4fc8-a942-05cb4c174233",
+                "text": "Incluso \naunque inicialmente se hubieran  solventado estas situaciones, éstas podrían sobrevenir \ncomo consecuencia de una renovación o actualización de sus componentes una vez que el \nsistema hubiera sido puesto en producción. \nPor tanto, se recomienda que el riesgo de las operaciones  biométricas,",
+                "score": 0.5159808351161098,
+                "metadata": "16"
+            },
+            {
+                "node_id": "7fc7c612-51ec-4d52-9680-99af04bd79f6",
+                "text": "Página: 2 de 23 \n \n \nConfidencial \n \nÍNDICE \n \n1. Introducción .............................................................................................................. 3 \n2. Definiciones ...........................................................................................................",
+                "score": 0.5126251331348814,
+                "metadata": "3"
+            },
+            {
+                "node_id": "51364543-25f0-4a0c-ac7c-aa06fdcb460d",
+                "text": "Por ello y como se abordará más adelante en materia de riesgos (véase \nsección 3.3), es recomendable que las referencias biométricas  se generen con  ciertas \ncaracterísticas de diseño, como las de ser ‘irreversibles’, ‘no vinculables’ y ‘revocables’. \nUna referencia biométrica es ‘irreversible’ si ",
+                "score": 0.5107050552181871,
+                "metadata": "5"
+            },
+            {
+                "node_id": "89a83c95-3e87-4f2d-b79c-b8aeefd1f0db",
+                "text": "En el contexto laboral, el desequilibrio de poder entre empleador y persona trabajadora \nexige un examen especialmente riguroso de la libertad del consentimiento. El responsable \ndeberá poder acreditar que la elección entre el sistema biométrico y la alterna tiva no \nbiométrica es real y efectiva, y",
+                "score": 0.5058732427858322,
+                "metadata": "20"
+            }
+        ]
+    },
+    {
+        "question_id": "GS16",
+        "category": "factual",
+        "question": "¿Cómo se mitiga el riesgo de identificar a personas sin participación activa?",
+        "answerable": true,
+        "evidence_pages": [
+            "15"
+        ],
+        "retrieved_contexts": [
+            {
+                "node_id": "53c2bb45-6e6b-4117-a908-61b234b21889",
+                "text": "Página: 14 de 23 \n \n \nConfidencial \npersonas sin su participación activa, o con fines distintos de los originalmente previstos o \nconsentidos. Estos riesgos se mitigan cuando los datos biométricos están bajo control \ncompartido y, más aún, se evitan cuando están bajo el control exclusivo del interes",
+                "score": 0.42216422773050616,
+                "metadata": "15"
+            },
+            {
+                "node_id": "7f8cf7fb-5b42-483b-807a-b5c9551df286",
+                "text": "Las referencias biométricas irrevocables 10 aumentan el riesgo inherente en caso de \nbrechas de datos e imposibilitan el establecimiento de períodos de validez o políticas de \ncaducidad. \nEn la práctica, las tecnologías biométricas ofrecen distintos grados de irreversibilidad, no \nvinculación y revo",
+                "score": 0.3945719426414057,
+                "metadata": "15"
+            },
+            {
+                "node_id": "ca040444-f59f-4111-acd4-ca2194637951",
+                "text": "En los sistemas utilizados para el control de acceso, es también habitual el uso de  otros \nidentificadores no biométricos, denominados “referencias de identidad”2. Son identificadores \nque permanecen inalterables mientras la persona exista dentro del dominio (como un número \nde DNI, código de emple",
+                "score": 0.3913934612169566,
+                "metadata": "5"
+            },
+            {
+                "node_id": "539ecc60-93fc-4326-8dcd-6cf87a94e43b",
+                "text": "En todo caso, se deberán s uprimir los datos biométricos cuando no se vinculen a la \nfinalidad que motivó su tratamiento. \n4.5.2. TÉCNICAS \nEl uso de identificadores adicionales conlleva un mayor riesgo de combinación con otras \nfuentes de información. Por lo tanto, cuando sea necesario el uso de re",
+                "score": 0.38891131035521387,
+                "metadata": "17"
+            },
+            {
+                "node_id": "81bdf5db-8967-44c2-a33e-ad97a84fdbad",
+                "text": "o \ndenegación de acceso a servicios por errores en la captación del dato. \nPor otra parte, dada una finalidad de control de acceso , un tratamiento basado en datos \npersonales no biométricos (es decir, que no trate características del propio individuo) podría \nser inadecuado (no idóneo), en función ",
+                "score": 0.3861221254673778,
+                "metadata": "8"
+            },
+            {
+                "node_id": "8b7053ac-58b8-4d44-9953-06be846faf7b",
+                "text": "Estos atributos p ueden quedar \nalmacenados junto con los indicadores o de forma separada . Su asociación con los \nidentificadores puede ser directa con las referencias biométricas o indirecta a través de \nreferencias de identidad. En otras palabras, el uso de referencias de identidad es opcional \ne",
+                "score": 0.3814591423247821,
+                "metadata": "6"
+            }
+        ]
+    },
+    {
+        "question_id": "GS17",
+        "category": "factual",
+        "question": "¿Qué tipo de dato biométrico es increíblemente susceptible a poder suplantar la identidad?",
+        "answerable": true,
+        "evidence_pages": [
+            "15"
+        ],
+        "retrieved_contexts": [
+            {
+                "node_id": "ca040444-f59f-4111-acd4-ca2194637951",
+                "text": "En los sistemas utilizados para el control de acceso, es también habitual el uso de  otros \nidentificadores no biométricos, denominados “referencias de identidad”2. Son identificadores \nque permanecen inalterables mientras la persona exista dentro del dominio (como un número \nde DNI, código de emple",
+                "score": 0.48757742697947926,
+                "metadata": "5"
+            },
+            {
+                "node_id": "7f8cf7fb-5b42-483b-807a-b5c9551df286",
+                "text": "Las referencias biométricas irrevocables 10 aumentan el riesgo inherente en caso de \nbrechas de datos e imposibilitan el establecimiento de períodos de validez o políticas de \ncaducidad. \nEn la práctica, las tecnologías biométricas ofrecen distintos grados de irreversibilidad, no \nvinculación y revo",
+                "score": 0.47741458047485297,
+                "metadata": "15"
+            },
+            {
+                "node_id": "53c2bb45-6e6b-4117-a908-61b234b21889",
+                "text": "Página: 14 de 23 \n \n \nConfidencial \npersonas sin su participación activa, o con fines distintos de los originalmente previstos o \nconsentidos. Estos riesgos se mitigan cuando los datos biométricos están bajo control \ncompartido y, más aún, se evitan cuando están bajo el control exclusivo del interes",
+                "score": 0.4758066209539603,
+                "metadata": "15"
+            },
+            {
+                "node_id": "5fd57b34-7f3d-41d2-b163-4bb2e13cbd40",
+                "text": "Pueden \nser una “muestra biométrica”2 (como una huella dactilar o una fotografía, por ejemplo), o bien \nun “rasgo biométrico”2 (como una representación vectorial del rostro , por ejemplo) , o bien \nuna “plantilla biométrica”2 (conjunto de rasgos biométricos), o bien un “modelo biométrico”2 \n(función",
+                "score": 0.46325107418177763,
+                "metadata": "5"
+            },
+            {
+                "node_id": "1e7e327a-786e-4526-99df-28bee6a3f7f5",
+                "text": "Los requisitos para superar este análisis son los ya expuestos anteriormente en la Sección \n3.1. \n \n \n4.4. IMPLEMENTACIÓN Y CONTEXTO DEL TRATAMIENTO  \n \n8 (véase 2.3) Una referencia biométrica es reversible si a partir de ella se puede reconstruir la muestra biométrica original, como la \ncaptura del",
+                "score": 0.46271324578721945,
+                "metadata": "15"
+            },
+            {
+                "node_id": "51364543-25f0-4a0c-ac7c-aa06fdcb460d",
+                "text": "Por ello y como se abordará más adelante en materia de riesgos (véase \nsección 3.3), es recomendable que las referencias biométricas  se generen con  ciertas \ncaracterísticas de diseño, como las de ser ‘irreversibles’, ‘no vinculables’ y ‘revocables’. \nUna referencia biométrica es ‘irreversible’ si ",
+                "score": 0.46158981861129256,
+                "metadata": "5"
+            }
+        ]
+    },
+    {
+        "question_id": "GS18",
+        "category": "factual",
+        "question": "Aspectos que los responsables de los datos biométricos tienen que tener en cuenta con alto cuidado si suponen riesgo para las personas físicas.",
+        "answerable": true,
+        "evidence_pages": [
+            "14"
+        ],
+        "retrieved_contexts": [
+            {
+                "node_id": "6f131728-859c-482f-b8b4-07f0e2e4702f",
+                "text": "Los responsables del tratamiento deben evaluar cuidadosamente los siguientes \nelementos de diseño, entre otros, para determinar si el tratamiento puede suponer un alto \nriesgo inherente para los derechos y libertades de las personas físicas: \n• Datos biométricos bajo el control exclusivo del respons",
+                "score": 0.6288302286027908,
+                "metadata": "14"
+            },
+            {
+                "node_id": "9e2496a7-c05f-40f6-964d-b7415b0aec39",
+                "text": "Página: 16 de 23 \n \n \nConfidencial \nLos interesados deben estar informados sobre el tratamiento. Esto implica, como señala \nel considerando 39 del RGPD que “ Las personas físicas deben tener conocimiento de los \nriesgos” con relación a los tratamientos, en este caso biométrico. Una medida recomendad",
+                "score": 0.5905645773698968,
+                "metadata": "17"
+            },
+            {
+                "node_id": "53c2bb45-6e6b-4117-a908-61b234b21889",
+                "text": "Página: 14 de 23 \n \n \nConfidencial \npersonas sin su participación activa, o con fines distintos de los originalmente previstos o \nconsentidos. Estos riesgos se mitigan cuando los datos biométricos están bajo control \ncompartido y, más aún, se evitan cuando están bajo el control exclusivo del interes",
+                "score": 0.579351590448421,
+                "metadata": "15"
+            },
+            {
+                "node_id": "4ac00e8c-1ed3-4cad-b3d4-7b6b175cba2f",
+                "text": "Página: 17 de 23 \n \n \nConfidencial \nconfiguración debe estar restringido al personal autorizado responsable de la seguridad y el \nmantenimiento del sistema. \nLas muestras biométricas (como la huella dactilar o una fotografía) sólo deben \nalmacenarse durante el tiempo mínimo estrictamente necesario p",
+                "score": 0.5787194649526467,
+                "metadata": "18"
+            },
+            {
+                "node_id": "87746f8e-ceaa-4f32-86c7-a0911e533b27",
+                "text": "Los datos biométricos se consideran una categoría especial de datos cuando son tratados \ncon la finalidad de identificar de manera única a una persona física. Éste es el caso de los \ntratamientos en el  registro y control de acceso  biométricos. Lo anterior aplica con \nindependencia de que la operac",
+                "score": 0.5731546522653449,
+                "metadata": "10"
+            },
+            {
+                "node_id": "81bdf5db-8967-44c2-a33e-ad97a84fdbad",
+                "text": "o \ndenegación de acceso a servicios por errores en la captación del dato. \nPor otra parte, dada una finalidad de control de acceso , un tratamiento basado en datos \npersonales no biométricos (es decir, que no trate características del propio individuo) podría \nser inadecuado (no idóneo), en función ",
+                "score": 0.5716626312184997,
+                "metadata": "8"
+            }
+        ]
+    },
+    {
+        "question_id": "GS19",
+        "category": "factual",
+        "question": "¿Cuándo es un proceso de tratamiento de datos de alto riesgo para la persona física?",
+        "answerable": true,
+        "evidence_pages": [
+            "10"
+        ],
+        "retrieved_contexts": [
+            {
+                "node_id": "072ac780-670a-4112-b7c4-41732da35d47",
+                "text": "Página: 9 de 23 \n \n \nConfidencial \napropiadas, como la seudonimización , concebidas para aplicar de forma efectiva los \nprincipios de protección de datos, como la minimización de datos, e integrar las garantías \nnecesarias en el tratamiento, a fin de cumplir los requisitos del presente Reglamento y ",
+                "score": 0.470339705744052,
+                "metadata": "10"
+            },
+            {
+                "node_id": "00cc2c72-858d-4cd0-b8c8-41515547d618",
+                "text": "9, apartado 1, del RGPD establece una regla general consistente en prohibir el \ntratamiento de datos personales que revelen lo que denomina “categorías especiales de \ndatos personales”. Esta especial protección deriva del impacto que el tratamiento de estos \ndatos puede tener en los derechos fundame",
+                "score": 0.4598416359013873,
+                "metadata": "10"
+            },
+            {
+                "node_id": "53f247d7-e617-4bc1-82fc-af33588e9e5f",
+                "text": "Con carácter previo al inicio \ndel tratamiento, los responsables deben evaluar el nivel de riesgo inherente de las \noperaciones de l tratamiento previstas, teniendo en cuenta la naturaleza, el alcance y el \ncontexto del sistema biométrico utilizado para el control del acceso físico, así como cualqui",
+                "score": 0.45901030183584635,
+                "metadata": "13"
+            },
+            {
+                "node_id": "94e76918-8624-4032-b682-b7cc35062f09",
+                "text": "25 RGPD ), técnicas y organizativas \napropiadas a fin de garantizar y poder  demostrar que el tratamiento es conforme con el \nRGPD. En particular, cuando sea probable que un tipo de tratamiento entrañe un alto riesgo, \nse deberá realizar una Evaluación de Impacto para la Protección de Datos (EIPD) a",
+                "score": 0.4576644176752975,
+                "metadata": "13"
+            },
+            {
+                "node_id": "9e2496a7-c05f-40f6-964d-b7415b0aec39",
+                "text": "Página: 16 de 23 \n \n \nConfidencial \nLos interesados deben estar informados sobre el tratamiento. Esto implica, como señala \nel considerando 39 del RGPD que “ Las personas físicas deben tener conocimiento de los \nriesgos” con relación a los tratamientos, en este caso biométrico. Una medida recomendad",
+                "score": 0.4554035197826163,
+                "metadata": "17"
+            },
+            {
+                "node_id": "6f131728-859c-482f-b8b4-07f0e2e4702f",
+                "text": "Los responsables del tratamiento deben evaluar cuidadosamente los siguientes \nelementos de diseño, entre otros, para determinar si el tratamiento puede suponer un alto \nriesgo inherente para los derechos y libertades de las personas físicas: \n• Datos biométricos bajo el control exclusivo del respons",
+                "score": 0.45331711491072446,
+                "metadata": "14"
+            }
+        ]
+    },
+    {
+        "question_id": "GS20",
+        "category": "fuera_de_corpus",
+        "question": "¿Qué norma ISO regula los sensores de huella dactilar?",
+        "answerable": false,
+        "evidence_pages": [],
+        "retrieved_contexts": [
+            {
+                "node_id": "a14f07ba-0974-415d-96be-236f61a9b2c2",
+                "text": "El principio de legalidad impone no sólo una base jurídica en abstracto, sino un grado \nsuficiente de precisión y previsibilidad en función del riesgo y del impacto del tratamiento. \nPor ejemplo. no puede exigirse el mismo nivel de densidad normativa para una identificación \nmasiva y automatizada si",
+                "score": 0.3685946463570731,
+                "metadata": "10"
+            },
+            {
+                "node_id": "51364543-25f0-4a0c-ac7c-aa06fdcb460d",
+                "text": "Por ello y como se abordará más adelante en materia de riesgos (véase \nsección 3.3), es recomendable que las referencias biométricas  se generen con  ciertas \ncaracterísticas de diseño, como las de ser ‘irreversibles’, ‘no vinculables’ y ‘revocables’. \nUna referencia biométrica es ‘irreversible’ si ",
+                "score": 0.366317470780282,
+                "metadata": "5"
+            },
+            {
+                "node_id": "4ac00e8c-1ed3-4cad-b3d4-7b6b175cba2f",
+                "text": "Página: 17 de 23 \n \n \nConfidencial \nconfiguración debe estar restringido al personal autorizado responsable de la seguridad y el \nmantenimiento del sistema. \nLas muestras biométricas (como la huella dactilar o una fotografía) sólo deben \nalmacenarse durante el tiempo mínimo estrictamente necesario p",
+                "score": 0.3628511226797232,
+                "metadata": "18"
+            },
+            {
+                "node_id": "e7a3db57-cb38-4d93-929b-ad432effa40a",
+                "text": "2. DEFINICIONES  \n2.1. DATOS, CARACTERÍSTICAS Y SISTEMAS BIOMÉTRICOS \nEl artículo 4.14) del RGPD define “datos biométricos” como “datos personales obtenidos \na partir de un tratamiento técnico específico, relativos a las características físicas, fisiológicas \no conductuales de una persona física que",
+                "score": 0.3611703316073801,
+                "metadata": "4"
+            },
+            {
+                "node_id": "5fd57b34-7f3d-41d2-b163-4bb2e13cbd40",
+                "text": "Pueden \nser una “muestra biométrica”2 (como una huella dactilar o una fotografía, por ejemplo), o bien \nun “rasgo biométrico”2 (como una representación vectorial del rostro , por ejemplo) , o bien \nuna “plantilla biométrica”2 (conjunto de rasgos biométricos), o bien un “modelo biométrico”2 \n(función",
+                "score": 0.3517336856303851,
+                "metadata": "5"
+            },
+            {
+                "node_id": "d6d1e289-c8f7-4e64-b5fc-ed4a4058f52f",
+                "text": "Página: 4 de 23 \n \n \nConfidencial \npor ejemplo) o conductuales (forma de hablar, de escribir o de caminar, por ejemplo) de una \npersona física . En el ámbito del control de acceso  mediante datos biométricos , las \ncaracterísticas físicas suelen ser las más tratadas habitualmente. \nLos sistemas de p",
+                "score": 0.35142329519790727,
+                "metadata": "5"
+            }
+        ]
+    },
+    {
+        "question_id": "GS21",
+        "category": "fuera_de_corpus",
+        "question": "¿Cuánto cuesta implantar un sistema de control horario biométrico?",
+        "answerable": false,
+        "evidence_pages": [],
+        "retrieved_contexts": [
+            {
+                "node_id": "45252acc-cab9-49d6-b550-3a1549409475",
+                "text": "Página: 15 de 23 \n \n \nConfidencial \nHay una gran diferencia entre el concepto de operación biométrica y su implementación. \nLa implementación concreta implica selección de sensores, protocolos de comunicaciones, \nbibliotecas de código, dispositivos en los que se integran (móviles o cajeros automátic",
+                "score": 0.46004962015796735,
+                "metadata": "16"
+            },
+            {
+                "node_id": "67a4950b-35b2-4289-8356-b1e2f0f94832",
+                "text": "Página: 7 de 23 \n \n \nConfidencial \nPara ello, es recomendable que estén definidas métricas4 sobre los objetivos necesarios \nen los tratamientos en el control de acceso. Es preciso realizar un análisis objetivo sobre la \nadecuación de las distintas opciones técnicas, incluida la biométrica, a dichos ",
+                "score": 0.4166404092456379,
+                "metadata": "8"
+            },
+            {
+                "node_id": "443a4484-2ad9-4355-a407-ab236479d616",
+                "text": "Todos los \nescenarios hay que analizarlos para medir el grado de impacto que puede ocasionar en los \nderechos y libertades. \nAsimismo, hay que conocer qué brechas se están produciendo actualmente y que podrían \ndeterminar la falta de adecuación de una técnica biométrica concreta, de la biometría en ",
+                "score": 0.4157758918259803,
+                "metadata": "18"
+            },
+            {
+                "node_id": "e8f82ba1-0a8b-46ac-9b16-00ce520a612e",
+                "text": "• En el caso de que el sistema biométrico se implemente con técnicas de inteligencia \nartificial, para poder incluirlos en un tratamiento se deberán tener en cuenta las \nprohibiciones, limitaciones y exigencias establecidas en la normativa de inteligencia \nartificial. \n• Superados todos los requisit",
+                "score": 0.4083749694291551,
+                "metadata": "22"
+            },
+            {
+                "node_id": "414f3a5c-a3c1-4277-be31-96348608d341",
+                "text": "Esto obliga a reconsiderar la interpretación realizada por esta AEPD en el  apartado “Los \ndatos biométricos” del capítulo 4.6 de la Guía “La Protección de Datos en las Relaciones \nLaborales” de mayo de 2021; y, como también concluye el Consejo de Transparencia y \nProtección de Datos  de Andalucía, ",
+                "score": 0.40475022680055034,
+                "metadata": "19"
+            },
+            {
+                "node_id": "bc3becc0-2de4-477d-969b-18db6253f2d9",
+                "text": "Los dispositivos personales deben almacenar los datos \nbiométricos en un enclave seguro y procesarlos en un entorno de ejecución confiable. \nLas operaciones de la verificación biométrica deben ser realizadas de forma local, por \nejemplo, en el dispositivo personal o junto con un terminal o quiosco b",
+                "score": 0.4018206159160634,
+                "metadata": "17"
+            }
+        ]
+    }
+]

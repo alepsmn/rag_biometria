@@ -10,6 +10,7 @@ requires-python = ">=3.12"
 dependencies = [
     "chromadb>=0.5.23",
     "llama-index>=0.13",
+    "llama-index-readers-file>=0.7.0",
     "llama-index-vector-stores-chroma>=0.5",
     "openai<2",
 ]
@@ -20,3 +21,6 @@ rag-ai = "rag_ai:main"
 [build-system]
 requires = ["uv_build>=0.12.2,<0.13.0"]
 build-backend = "uv_build"
+
+[tool.uv]
+link-mode = "copy"

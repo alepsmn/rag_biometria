@@ -1,0 +1,164 @@
+[
+    {
+        "GS01": {
+            "hit_rate@2": 1,
+            "hit_rate@4": 1,
+            "hit_rate@6": 1,
+            "RR": 1.0,
+            "max_score": 0.5888826599317366
+        },
+        "GS02": {
+            "hit_rate@2": 1,
+            "hit_rate@4": 1,
+            "hit_rate@6": 1,
+            "RR": 1.0,
+            "max_score": 0.5051293155349117
+        },
+        "GS04": {
+            "hit_rate@2": 1,
+            "hit_rate@4": 1,
+            "hit_rate@6": 1,
+            "RR": 1.0,
+            "max_score": 0.5438232181428639
+        },
+        "GS07": {
+            "hit_rate@2": 1,
+            "hit_rate@4": 1,
+            "hit_rate@6": 1,
+            "RR": 1.0,
+            "max_score": 0.5094606524263237
+        },
+        "GS11": {
+            "hit_rate@2": 0,
+            "hit_rate@4": 1,
+            "hit_rate@6": 1,
+            "RR": 0.3333333333333333,
+            "max_score": 0.5935433556121215
+        },
+        "GS12": {
+            "hit_rate@2": 1,
+            "hit_rate@4": 1,
+            "hit_rate@6": 1,
+            "RR": 1.0,
+            "max_score": 0.6181505482558124
+        },
+        "GS14": {
+            "hit_rate@2": 1,
+            "hit_rate@4": 1,
+            "hit_rate@6": 1,
+            "RR": 1.0,
+            "max_score": 0.4648355815408684
+        },
+        "GS15": {
+            "hit_rate@2": 1,
+            "hit_rate@4": 1,
+            "hit_rate@6": 1,
+            "RR": 1.0,
+            "max_score": 0.5282022514755177
+        },
+        "GS16": {
+            "hit_rate@2": 1,
+            "hit_rate@4": 1,
+            "hit_rate@6": 1,
+            "RR": 1.0,
+            "max_score": 0.42216422773050616
+        },
+        "GS17": {
+            "hit_rate@2": 1,
+            "hit_rate@4": 1,
+            "hit_rate@6": 1,
+            "RR": 0.5,
+            "max_score": 0.48757742697947926
+        },
+        "GS18": {
+            "hit_rate@2": 1,
+            "hit_rate@4": 1,
+            "hit_rate@6": 1,
+            "RR": 1.0,
+            "max_score": 0.6288302286027908
+        },
+        "GS19": {
+            "hit_rate@2": 1,
+            "hit_rate@4": 1,
+            "hit_rate@6": 1,
+            "RR": 1.0,
+            "max_score": 0.470339705744052
+        },
+        "group_metrics": {
+            "hr2": 0.9166666666666666,
+            "hr4": 1.0,
+            "hr6": 1.0,
+            "MRR": 0.9027777777777777,
+            "max_answerable_score": 0.6288302286027908,
+            "min_answerable_score": 0.42216422773050616
+        }
+    },
+    {
+        "GS03": {
+            "hit_rate@2": 0,
+            "hit_rate@4": 0,
+            "hit_rate@6": 0,
+            "RR": 0,
+            "max_score": 0.5438314427265831
+        },
+        "GS05": {
+            "hit_rate@2": 0,
+            "hit_rate@4": 0,
+            "hit_rate@6": 0,
+            "RR": 0,
+            "max_score": 0.5206690967224975
+        },
+        "GS06": {
+            "hit_rate@2": 0,
+            "hit_rate@4": 0,
+            "hit_rate@6": 0,
+            "RR": 0,
+            "max_score": 0.2910566178740201
+        },
+        "GS08": {
+            "hit_rate@2": 0,
+            "hit_rate@4": 0,
+            "hit_rate@6": 0,
+            "RR": 0,
+            "max_score": 0.4002535338477729
+        },
+        "GS09": {
+            "hit_rate@2": 0,
+            "hit_rate@4": 0,
+            "hit_rate@6": 0,
+            "RR": 0,
+            "max_score": 0.48802659837429496
+        },
+        "GS10": {
+            "hit_rate@2": 0,
+            "hit_rate@4": 0,
+            "hit_rate@6": 0,
+            "RR": 0,
+            "max_score": 0.4375422120875209
+        },
+        "GS13": {
+            "hit_rate@2": 0,
+            "hit_rate@4": 0,
+            "hit_rate@6": 0,
+            "RR": 0,
+            "max_score": 0.5253661038790549
+        },
+        "GS20": {
+            "hit_rate@2": 0,
+            "hit_rate@4": 0,
+            "hit_rate@6": 0,
+            "RR": 0,
+            "max_score": 0.3685946463570731
+        },
+        "GS21": {
+            "hit_rate@2": 0,
+            "hit_rate@4": 0,
+            "hit_rate@6": 0,
+            "RR": 0,
+            "max_score": 0.46004962015796735
+        },
+        "group_metrics": {
+            "max_non_answerable_score": 0.5438314427265831
+        }
+    }
+]

@@ -1,0 +1,149 @@
+[
+  {
+    "id": "GS01",
+    "category": "factual",
+    "question": "¿Qué definición se da para datos biométricos?",
+    "answerable": true,
+    "evidence_pages": ["4"]
+  },
+  {
+    "id": "GS02",
+    "category": "factual",
+    "question": "Para que una muestra biométrica sea eficaz, ¿qué debe cumplir?",
+    "answerable": true,
+    "evidence_pages": ["5"]
+  },
+  {
+    "id": "GS03",
+    "category": "premisa_falsa",
+    "question": "¿Una muestra biométrica eficaz, es incapaz de distinguir individuos, por lo que no es un dato personal?",
+    "answerable": false,
+    "evidence_pages": []
+  },
+  {
+    "id": "GS04",
+    "category": "factual",
+    "question": "Requisitos exactos para que una medida restrictiva supere el juicio de proporcionalidad.",
+    "answerable": true,
+    "evidence_pages": ["7"]
+  },
+  {
+    "id": "GS05",
+    "category": "premisa_falsa",
+    "question": "¿Para que un dato pueda ser considerado como biométrico, entre sus características debe estar la de poder distinguir grupos de individuos?",
+    "answerable": false,
+    "evidence_pages": []
+  },
+  {
+    "id": "GS06",
+    "category": "fuera_de_corpus",
+    "question": "¿Cómo se calcula la indemnización por daños a un trabajador?",
+    "answerable": false,
+    "evidence_pages": []
+  },
+  {
+    "id": "GS07",
+    "category": "factual",
+    "question": "¿Existen restricciones en procesos automatizados para el control de acceso a lugares de trabajo?",
+    "answerable": true,
+    "evidence_pages": ["12"]
+  },
+  {
+    "id": "GS08",
+    "category": "fuera_de_corpus",
+    "question": "¿Qué sanción económica corresponde a una infracción grave del RGPD?",
+    "answerable": false,
+    "evidence_pages": []
+  },
+  {
+    "id": "GS09",
+    "category": "dato_ausente",
+    "question": "¿Cada cuánto se recomienda que se hagan cambios en procesos de operaciones biométricas?",
+    "answerable": false,
+    "evidence_pages": []
+  },
+  {
+    "id": "GS10",
+    "category": "dato_ausente",
+    "question": "¿Qué porcentaje de proporcionalidad para la intensidad de las medidas en operaciones biométricas se recomienda respecto a la sensibilidad de los datos?",
+    "answerable": false,
+    "evidence_pages": []
+  },
+  {
+    "id": "GS11",
+    "category": "factual",
+    "question": "Los interesados en implantar métodos de control, aun teniendo permiso por las autoridades, ¿deben plantear alternativas para el uso de estos datos biométricos en controles de acceso?",
+    "answerable": true,
+    "evidence_pages": ["16"]
+  },
+  {
+    "id": "GS12",
+    "category": "factual",
+    "question": "¿De qué deben ser informados aquellas personas que autoricen el uso de sus datos biométricos en procesos de control?",
+    "answerable": true,
+    "evidence_pages": ["17"]
+  },
+  {
+    "id": "GS13",
+    "category": "dato_ausente", 
+    "question": "Que porcentaje de dispositivos de la organizacion que contengan datos biometricos, deben ser estrictamente protegidos",
+    "answerable": false,
+    "evidence_pages": []
+  },
+  {
+    "id": "GS14",
+    "category": "factual",
+    "question": "El máximo tiempo que pueden guardarse los registros diarios de jornadas y quién puede acceder a ellos.",
+    "answerable": true,
+    "evidence_pages": ["19"]
+  },
+  {
+    "id": "GS15",
+    "category": "factual",
+    "question": "Aun subcontratando, ¿los sistemas biométricos se rigen por las normas establecidas en esta guia?",
+    "answerable": true,
+    "evidence_pages": ["21"]
+  },
+  {
+    "id": "GS16",
+    "category": "factual",
+    "question": "¿Cómo se mitiga el riesgo de identificar a personas sin participación activa?",
+    "answerable": true,
+    "evidence_pages": ["15"]
+  },
+  {
+    "id": "GS17",
+    "category": "factual",
+    "question": "¿Qué tipo de dato biométrico es increíblemente susceptible a poder suplantar la identidad?",
+    "answerable": true,
+    "evidence_pages": ["15"]
+  },
+  {
+    "id": "GS18",
+    "category": "factual",
+    "question": "Aspectos que los responsables de los datos biométricos tienen que tener en cuenta con alto cuidado si suponen riesgo para las personas físicas.",
+    "answerable": true,
+    "evidence_pages": ["14"]
+  },
+  {
+    "id": "GS19",
+    "category": "factual",
+    "question": "¿Cuándo es un proceso de tratamiento de datos de alto riesgo para la persona física?",
+    "answerable": true,
+    "evidence_pages": ["10"]
+  },
+  {
+    "id": "GS20",
+    "category": "fuera_de_corpus",
+    "question": "¿Qué norma ISO regula los sensores de huella dactilar?",
+    "answerable": false,
+    "evidence_pages": []
+  },
+  {
+    "id": "GS21",
+    "category": "fuera_de_corpus",
+    "question": "¿Cuánto cuesta implantar un sistema de control horario biométrico?",
+    "answerable": false,
+    "evidence_pages": []
+  }
+]

@@ -1,4 +1,4 @@
-# RAG sobre la Guía de tratamientos de control de presencia mediante sistemas biométricos
+# RAG sobre la Guía de tratamientos de control de acceso mediante sistemas biométricos
 
 Consiste en preguntar en lenguaje natural a un documento extenso sin leerlo entero ni meter todo el PDF en el prompt.
 
@@ -13,7 +13,7 @@ Se separan `read_doc.py` y `query.py`, con el fin de no regenerar embeddings en 
 El pipeline consta de:
 
 - **Carga:** el archivo se convierte en 23 documents.
-- **Chunking:** se elige un tamaño de 300 tokens y overlap de 50, con el fin de evitar cortar ideas, además de un `SentenceSplitter`. Esto evita que el chunk sea ni demasiado grande tal que pudiera cortar argumentos, ni tan pequeño que introduzca ruido a las respuestas.
+- **Chunking:** se elige un tamaño de 300 tokens (sweet spot escogido a mano - texto tecnico) y overlap de 50, con el fin de evitar cortar ideas, además de un `SentenceSplitter`. Esto evita que el chunk sea ni demasiado grande tal que pudiera cortar argumentos, ni tan pequeño que introduzca ruido a las respuestas. 
 - **Embedding:** tanto el archivo como el prompt se embeben con el mismo modelo, tal que se encuentren en el mismo espacio dimensional de significado y, por ende, no existan discrepancias a la hora de medir sus distancias.
 - **Chroma:** los nodos son almacenados en la base de datos vectorial para su persistencia, evitando gastos por la API del modelo.
 - **Retrieval:** se extraen estos vectores almacenados mediante el algoritmo ANN con k=4 (los 4 vectores más cercanos al prompt lanzado, al cual se le hace un embedding). El nivel de k evita introducir embeddings que no aporten mucha información debido a su distancia, pero tampoco descarta tantos.
