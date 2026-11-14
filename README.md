@@ -104,7 +104,5 @@ Aviso: read_doc.py indexa sin borrar la colección: ejecutarlo sobre una base ya
 ## Mejoras futuras
 
 - Limpiar el ruido de PDF (portada, "En revisión", espacios).
-- Segunda señal para la abstención (juez LLM sobre el contexto recuperado), ya que el score por sí solo no separa las distribuciones.
-- Reranker (cross-encoder) sobre los nodos recuperados.
-- Validador del golden set como script determinista.
+- Segunda señal para la abstención (juez LLM sobre el contexto recuperado)
 - Recalibrar el umbral dentro del pipeline de evaluación en vez de fijarlo a mano.
