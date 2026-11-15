@@ -16,8 +16,8 @@ El pipeline consta de:
 - **Chunking:** se elige un tamaño de 300 tokens (sweet spot escogido a mano — texto técnico) y overlap de 50, con el fin de evitar cortar ideas, además de un `SentenceSplitter`. Esto evita que el chunk sea ni demasiado grande tal que pudiera cortar argumentos, ni tan pequeño que introduzca ruido a las respuestas.
 - **Embedding:** tanto el archivo como el prompt se embeben con el mismo modelo, tal que se encuentren en el mismo espacio dimensional de significado y, por ende, no existan discrepancias a la hora de medir sus distancias.
 - **Chroma:** los nodos son almacenados en la base de datos vectorial para su persistencia, evitando gastos por la API del modelo.
-- **Retrieval:** se extraen estos vectores almacenados mediante el algoritmo ANN con k=4 (los 4 vectores más cercanos al prompt lanzado, al cual se le hace un embedding). El nivel de k evita introducir embeddings que no aporten mucha información debido a su distancia, ya que introduciría una cantidad de tokens al llamar al modelo que solo provocaría gasto y ningún tipo de retorno informacional.
-- **Generación:** se usa un modelo no tan potente, 4o-mini, ya que su trabajo es sintetizar los argumentos obtenidos por el algoritmo ANN, no debe razonar ni hacer alguna tarea compleja.
+- **Retrieval:** se extraen estos vectores almacenados con k=4 (los 4 vectores más cercanos al prompt lanzado, al cual se le hace un embedding). El nivel de k evita introducir embeddings que no aporten mucha información debido a su distancia, ya que introduciría una cantidad de tokens al llamar al modelo que solo provocaría gasto y ningún tipo de retorno informacional.
+- **Generación:** se usa un modelo no tan potente, 4o-mini, ya que su trabajo es sintetizar los argumentos obtenidos, no debe razonar ni hacer alguna tarea compleja.
 
 ## Evaluación
 
@@ -42,7 +42,7 @@ A pesar de obtener valores de 1 para algunos HR, hay que tener en cuenta que las
 
 ### Abstención
 
-Las puntuaciones (L2, no distancia del coseno) para los subconjuntos (respondible y no respondible) cubren los intervalos: R (0.422 mín — 0.629 máx) y NR (0.291 mín — 0.544 máx). El solape ocurre en gran parte del rango útil, por lo que es muy difícil encontrar un valor que permita establecer un umbral de abstención que separe ambas distribuciones limpiamente.
+Las puntuaciones (L2) para los subconjuntos (respondible y no respondible) cubren los intervalos: R (0.422 mín — 0.629 máx) y NR (0.291 mín — 0.544 máx). El solape ocurre en gran parte del rango útil, por lo que es muy difícil encontrar un valor que permita establecer un umbral de abstención que separe ambas distribuciones limpiamente.
 
 Cuando el postprocessor no encuentra nodos que puedan responder a la pregunta (score insuciente), LlamaIndex no llama al LLM, la abstencion resulta ser gratis y determinista, el usuario recibe siempre Empty Response (ningun nodo disponible), por lo que seria ideal envolverlo en un mensaje mas acorde al contexto.
 
